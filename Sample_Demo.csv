@@ -1,0 +1,3 @@
+inactive_days,Country_Name,Gender,Year_of_Birth,age_at_registration,KYC_Status,sum_stakes_fixedodds(Euros),sum_bets_fixedodds,bettingdays_fixedodds,duration_fixedodds,frequency_fixedodds_MN,bets_per_day_fixedodds_LM,euros_per_bet_fixedodds_KL,net_loss_fixedodds(Euros),mode_of_payment,bonus_type(Euros),Ref_ID,bonus_amount(Euros),wallet_amount(Euros),self_exclusive_status
+49,Austria,M,1970,29,Yes,73.868,32,7,2242,0.003122212,4.571428571,2.308375,21.668,Digital Wallet,signing,NO,50,879.868,0
+0,Germany,F,1977,23,No,27121.0215,863,133,1457,0.091283459,6.488721805,3.436170213,56.44,Credit card,referral,ref_9859010,50,27725.0215,1
