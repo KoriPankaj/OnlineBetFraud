@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 import pandas as pd
 
-pipe_preprocess = pickle.load(open("E:\Live project\production\streamlit\pipe_preprocess.pkl",'rb'))
+pipe_preprocess = pickle.load(open("pipe_preprocess.pkl",'rb'))
 
 st.set_page_config(page_title='Fraud Detection')
 
@@ -12,7 +12,7 @@ st.title('Online Betting Fraud Detection for Soccer')
 #add a sidebar
 st.sidebar.subheader("Import Files")
 st.subheader('Demo File Format')
-sample_df = pd.read_csv("E:\Live project\production\streamlit\Sample_Demo.csv")
+sample_df = pd.read_csv("Sample_Demo.csv")
 st.write(sample_df)
 test_case = st.sidebar.file_uploader(label = "Upload your csv file",
                          type = ['csv'])
